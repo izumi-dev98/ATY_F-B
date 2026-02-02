@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body{
+  font-family: serif;
+}
+
+
+@layer components {
+
+  .context {
+
+    @apply h-99 w-full border border-gray-300 shadow-2xl rounded-lg mt-4 p-6 bg-white
+  }
+}
