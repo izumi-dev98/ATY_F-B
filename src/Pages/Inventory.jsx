@@ -109,7 +109,7 @@ const Inventory = () => {
             await fetchInventory(); // 🔑 CRITICAL FIX
 
         } catch (err) {
-            Swal.fire("Error", "Operation failed", "error");
+            Swal.fire("Error", "Operation failed", err);
         }
     };
 
